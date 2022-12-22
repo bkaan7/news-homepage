@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+.colorize{
+    color: hsl(240, 100%, 5%);
+    font-weight: 800;
+}
+
+.newsText{
+    color: hsl(236, 13%, 42%);
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.btn{
+    color:hsl(36, 100%, 99%) ;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.heber{
+ color: hsl(35, 77%, 62%);
+ font-weight: 700;
+}
+
+.baslique {
+    font-weight: 800;
+    font-size: 18px;
+    color: hsl(36, 100%, 99%);
+
+}
+
+.yazi {
+    color:hsl(236, 13%, 42%);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.rightNews{
+    background-color: hsl(240, 100%, 5%);
+}
+
+.sayi{
+    font-weight: 800;
+    color:hsl(233, 8%, 79%) ;
+}
+
+.coloreIt{
+    color: hsl(240, 100%, 5%);
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.bottomNews{
+    height: 250px!important;
+    margin-left: 23px!important;
+}
+
+/* HOVER AREA */
+
+.home:hover{
+    color: hsl(35, 77%, 62%)!important;
+}
+.new:hover{
+    color: hsl(35, 77%, 62%)!important;
+
+}
+.popular:hover{
+    color: hsl(35, 77%, 62%)!important;
+
+}
+.trending:hover{
+    color: hsl(35, 77%, 62%)!important;
+
+}
+.categories:hover{
+    color: hsl(35, 77%, 62%)!important;
+
+}
+
+.btn:hover{
+    background-color: hsl(240, 100%, 5%)!important;
+    color: hsl(36, 100%, 99%)!important;
+}
+
+.baslique:hover{
+    color: hsl(35, 77%, 62%)!important;
+    cursor: pointer;
+}
+
+.coloreIt:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+}
